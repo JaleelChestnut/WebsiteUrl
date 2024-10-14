@@ -1,0 +1,107 @@
+/* Reset margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #003366; /* Dark blue background */
+    padding: 10px;
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar .logo img {
+    height: 50px; /* Logo height */
+}
+
+.navbar a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding around links */
+    font-size: 18px; /* Link font size */
+}
+
+.navbar a:hover {
+    background-color: #004080; /* Darker blue on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Main content container */
+.container {
+    width: 90%; /* Full width with margin */
+    margin: 20px auto; /* Centered with margin */
+    text-align: center; /* Center text */
+}
+
+/* Main header section */
+.main-header {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between text and image */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Space below header */
+}
+
+.main-header .text-section {
+    width: 60%; /* Text section width */
+    text-align: left; /* Align text to the left */
+}
+
+.main-header h2 {
+    color: #003366; /* Header color */
+    margin-bottom: 10px; /* Space below header */
+}
+
+.main-header p {
+    color: #666; /* Paragraph color */
+    font-size: 16px; /* Paragraph font size */
+    margin-bottom: 20px; /* Space below paragraph */
+}
+
+/* Image section in the header */
+.main-header .image {
+    width: 35%; /* Image width */
+    height: 200px; /* Fixed height */
+    background-image: url('cyber_attack_image.png'); /* Background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+}
+
+/* Grid section for cards */
+.grid-section {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between cards */
+    flex-wrap: wrap; /* Wrap to next line if necessary */
+    margin-top: 20px; /* Space above grid */
+}
+
+.grid-section .card {
+    width: 30%; /* Card width */
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 10px; /* Padding inside cards */
+    margin-bottom: 20px; /* Space below cards */
+    border: 1px solid #ddd; /* Border around cards */
+    border-radius: 5px; /* Rounded corners */
+    text-align: left; /* Align text to the left */
+}
+
+.grid-section .card img {
+    width: 100%; /* Full width images */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below images */
+}
+
+.grid-section .card h3 {
+    color: #003366; /* Card title color */
+    font-size: 20px; /* Card title font size */
+    margin-bottom: 10px; /* Space below title */
+}
+
+.grid-section .card p {
+    color: #666; /* Card paragraph color */
+    font-size: 14px; /* Card paragraph font size */
+    line-height: 1.4; /* Line height for readability */
+}

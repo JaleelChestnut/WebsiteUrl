@@ -1,0 +1,27 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif; /* Set font family */
+    padding: 20px; /* Add padding around the body */
+}
+
+/* Header styling */
+h2 {
+    text-align: center; /* Center align the header text */
+}
+
+/* Main container for columns */
+.container {
+    display: flex; /* Use Flexbox layout */
+    justify-content: space-between; /* Space columns evenly */
+}
+
+/* Individual column styling */
+.column {
+    width: 45%; /* Set each column to occupy 45% of the container's width */
+}
+
+/* Image styling */
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain aspect ratio of the image */
+}
