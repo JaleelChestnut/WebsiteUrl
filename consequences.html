@@ -4,13 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Performance vs Consequence</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking the external stylesheet -->
+    <style>
+        /* Embedded Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Light background color */
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around; /* Space columns evenly */
+            padding: 20px;
+        }
+
+        .image-section {
+            text-align: center; /* Center the image */
+            margin-top: 20px;
+        }
+
+        .image-section img {
+            max-width: 100%; /* Responsive image */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 8px; /* Rounded corners for the image */
+        }
+    </style>
 </head>
 <body>
-
+    <nav>
+        <!-- Inline Styles -->
+        <a href="index.html#news" style="font-weight: bold;">News</a>
+        <a href="prevention_and_Strategies.html" style="font-weight: bold;">Prevention</a>
+        <a href="consequences.html" style="font-weight: bold;">Consequences</a>
+        <a href="Q&A.html" style="font-weight: bold;">Q&A</a>
+    </nav>
+    
     <div class="container">
         <div class="column">
             <h3>Performance</h3>
-            <ul class="performance-list">
+            <ul>
                 <li>Sharing personal info on the internet</li>
                 <li>Weak Passwords</li>
                 <li>Not keeping software up to date</li>
@@ -19,7 +52,7 @@
 
         <div class="column">
             <h3>Consequence</h3>
-            <ul class="consequence-list">
+            <ul>
                 <li>Puts you at risk of getting personal info stolen</li>
                 <li>More likely to get hacked</li>
                 <li>Devices can get bugs and viruses easier</li>
@@ -30,7 +63,5 @@
     <div class="image-section">
         <img src="IMG_0022.WEBP" alt="Hacker Image">
     </div>
-
 </body>
 </html>
-
