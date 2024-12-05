@@ -1,38 +1,19 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Light background color */
-    margin: 0;
-}
-
-.container {
-    display: flex;
-    justify-content: space-around; /* Space columns evenly */
-    padding: 20px;
+/* External Styles */
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #007BFF; /* Link color */
 }
 
 .column {
-    background-color: #fff; /* White background for columns */
-    border-radius: 8px;
-    padding: 20px;
-    width: 40%; /* Each column takes 40% of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h3 {
-    color: #333; /* Dark text color for headings */
+    color: #333; /* Heading text color */
 }
 
 ul {
     list-style-type: disc; /* Bullet points */
     padding-left: 20px; /* Indent for the list */
-}
-
-.image-section {
-    text-align: center; /* Center the image */
-    margin-top: 20px;
-}
-
-.image-section img {
-    max-width: 100%; /* Responsive image */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Rounded corners for the image */
 }
